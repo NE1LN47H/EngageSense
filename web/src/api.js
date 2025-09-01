@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://engagesense-1708.onrender.com/api';
 export async function uploadFile(file) {
   const form = new FormData();
   form.append('file', file);
